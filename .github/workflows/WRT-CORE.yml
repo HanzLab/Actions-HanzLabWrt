@@ -1,4 +1,4 @@
-#云编译公用核心
+#GitHub Actions Common Core
 name: WRT-CORE
 
 on:
@@ -106,7 +106,7 @@ jobs:
 
           cd ./wrt/ && echo "WRT_HASH=$(git log -1 --pretty=format:'%h')" >> $GITHUB_ENV
 
-          # GitHub Action 移除国内下载源
+          # GitHub Action Remove domestic download sources
           PROJECT_MIRRORS_FILE="./scripts/projectsmirrors.json"
           if [ -f "$PROJECT_MIRRORS_FILE" ]; then
             sed -i '/.cn\//d; /tencent/d; /aliyun/d' "$PROJECT_MIRRORS_FILE"
@@ -158,6 +158,7 @@ jobs:
 
           ./scripts/feeds update -a
           ./scripts/feeds install -a
+          ./scripts/feeds install -f libev lm-sensors libpam luci luci-i18n-base-zh-cn liblzma libnetsnmp luci-lua-runtime luci-base csstidy luasrcdiet glib2 libgpiod kmod-qca-nss-drv kmod-qca-nss-drv-wifi-meshmgr
 
       - name: Custom Packages
         run: |
