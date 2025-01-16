@@ -44,9 +44,9 @@ jobs:
       #默认主题
       WRT_THEME: argon
       #默认主机名
-      WRT_NAME: Hanz-HomeRouter
+      WRT_NAME: HanzLab-Router
       #默认WIFI名称
-      WRT_SSID: Hanz-HomeRouter
+      WRT_SSID: HanzLab-WIFI
       #默认WIFI密码
       WRT_WORD: 12345678
       #默认地址
