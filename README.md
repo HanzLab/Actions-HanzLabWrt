@@ -1,19 +1,10 @@
-# OpenWRT-CI
-云编译OpenWRT固件
+# Actions-IPQ60XX-ImmortalWrt
 
-高通版：
+Source Code from :
 https://github.com/VIKINGYFY/immortalwrt.git
 
-# 固件简要说明：
+# Firmware Brief Description：
 
-固件每天早上4点自动编译。
+The time in the firmware information is the start time of the compilation, which is convenient for verifying the upstream source code submission time.
 
-固件信息里的时间为编译开始的时间，方便核对上游源码提交时间。
 
-# 目录简要说明：
-
-workflows——自定义CI配置
-
-Scripts——自定义脚本
-
-Config——自定义配置
