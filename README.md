@@ -1,7 +1,9 @@
 # Actions-IPQ60XX-ImmortalWrt
 
 ### Source Code from :
-https://github.com/VIKINGYFY/immortalwrt.git
+[https://github.com/VIKINGYFY/immortalwrt.git](https://github.com/VIKINGYFY/immortalwrt.git)
+
+[https://github.com/VIKINGYFY/immortalwrt.git](https://github.com/LiBwrt-op/openwrt-6.x.git)
 
 # Firmware Supported Devices:
 
