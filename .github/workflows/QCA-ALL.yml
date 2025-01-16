@@ -1,5 +1,5 @@
 #CI项目
-name: QCA-ALL
+name: QCA-ALL-V
 
 #CI计划
 on:
