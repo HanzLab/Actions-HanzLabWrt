@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#安装和更新软件包
+#Install and Update Software Packages
 UPDATE_PACKAGE() {
 	local PKG_NAME=$1
 	local PKG_REPO=$2
@@ -20,7 +20,7 @@ UPDATE_PACKAGE() {
 	fi
 }
 
-#UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
+#UPDATE_PACKAGE "PACKAGE_NAME" "REPO_ADDRESS" "REPO_BRANCH" "pkg/name,Optional,pkg means single_name from all；name means rename"
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
@@ -42,7 +42,7 @@ if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
 fi
 
-#更新软件包版本
+#Update Software Packages Version
 UPDATE_VERSION() {
 	local PKG_NAME=$1
 	local PKG_MARK=${2:-not}
@@ -76,6 +76,6 @@ UPDATE_VERSION() {
 	done
 }
 
-#UPDATE_VERSION "软件包名" "测试版，true，可选，默认为否"
+#UPDATE_VERSION "PACKAGE_NAME" "Beta Version or not,true,Optional,default is false"
 UPDATE_VERSION "sing-box"
 UPDATE_VERSION "tailscale"
