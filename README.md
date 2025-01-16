@@ -7,4 +7,8 @@ https://github.com/VIKINGYFY/immortalwrt.git
 
 The time in the firmware information is the start time of the compilation, which is convenient for verifying the upstream source code submission time.
 
+# Firmware Supported Devices:
 
+JDCloud RE-SS-01 RE-CS-02 RE-CS-07 
+
+ZN M2
