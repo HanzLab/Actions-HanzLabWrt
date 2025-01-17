@@ -7,9 +7,9 @@ For Mediatek MT Series
 
 For Qualcomm IPQ Series
 
-[https://github.com/VIKINGYFY/immortalwrt.git](https://github.com/VIKINGYFY/immortalwrt.git)
+[https://github.com/VIKINGYFY/immortalwrt](https://github.com/VIKINGYFY/immortalwrt.git)
 
-[https://github.com/LiBwrt-op/openwrt-6.x.git](https://github.com/LiBwrt-op/openwrt-6.x.git)
+[https://github.com/LiBwrt-op/openwrt-6.x](https://github.com/LiBwrt-op/openwrt-6.x.git)
 
 For X86 Series
 
