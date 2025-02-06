@@ -1,9 +1,8 @@
-#CUDY KONKA TP-LINK MI-ROUTER
+#CUDY TP-LINK MI-ROUTER
 CONFIG_TARGET_mediatek=y
 CONFIG_TARGET_mediatek_filogic=y
 #设备列表
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_cudy_tr3000-v1=y
-CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_konka_komi-a31=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_tplink_tl-xdr6086=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_mi-router-wr30u-stock=y
 CONFIG_TARGET_DEVICE_mediatek_filogic_DEVICE_xiaomi_mi-router-wr30u-ubootmod=y
